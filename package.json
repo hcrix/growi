@@ -54,7 +54,9 @@
     "start": "npm run server:prod",
     "test": "mocha --timeout 10000 --exit -r src/test/bootstrap.js src/test/**/*.js",
     "version": "node -p \"require('./package.json').version\"",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "^2.3.0",
@@ -118,7 +120,8 @@
     "swig-templates": "^2.0.2",
     "uglifycss": "^0.0.29",
     "url-join": "^4.0.0",
-    "xss": "^1.0.3"
+    "xss": "^1.0.3",
+    "snyk": "^1.161.1"
   },
   "devDependencies": {
     "@alienfast/i18next-loader": "^1.0.16",
@@ -226,5 +229,6 @@
     "blanket": {
       "pattern": "./src/lib/**/*.js"
     }
-  }
+  },
+  "snyk": true
 }
