@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - async > lodash:
+        patched: '2020-05-01T05:43:37.690Z'
+    - aws-sdk > xmlbuilder > lodash:
+        patched: '2020-05-01T05:43:37.690Z'
+    - aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T05:43:37.690Z'
+    - nodemailer-ses-transport > aws-sdk > xmlbuilder > lodash:
+        patched: '2020-05-01T05:43:37.690Z'
+    - passport-google-auth > googleapis > async > lodash:
+        patched: '2020-05-01T05:43:37.690Z'
+    - nodemailer-ses-transport > aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T05:43:37.690Z'
+    - elasticsearch > lodash:
+        patched: '2020-05-01T05:43:37.690Z'
+    - mongoose > async > lodash:
+        patched: '2020-05-01T05:43:37.690Z'
+    - passport-saml > xml-encryption > async > lodash:
+        patched: '2020-05-01T05:43:37.690Z'
+    - migrate-mongo > lodash:
+        patched: '2020-05-01T05:43:37.690Z'
+    - mongoose-gridfs > lodash:
+        patched: '2020-05-01T05:43:37.690Z'
+    - slack-node > requestretry > lodash:
+        patched: '2020-05-01T05:43:37.690Z'
