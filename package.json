@@ -93,7 +93,7 @@
     "i18next-sprintf-postprocessor": "^0.2.2",
     "md5": "^2.2.1",
     "method-override": "^3.0.0",
-    "migrate-mongo": "^5.0.1",
+    "migrate-mongo": "^8.1.2",
     "mkdirp": "~0.5.1",
     "module-alias": "^2.0.6",
     "mongoose": "^5.4.4",
