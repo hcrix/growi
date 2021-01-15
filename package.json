@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "async": "^2.3.0",
-    "aws-sdk": "^2.88.0",
+    "aws-sdk": "^2.814.0",
     "axios": "^0.18.0",
     "basic-auth-connect": "~1.0.0",
     "body-parser": "^1.18.2",
