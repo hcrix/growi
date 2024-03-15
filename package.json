@@ -59,7 +59,7 @@
   "dependencies": {
     "async": "^2.3.0",
     "aws-sdk": "^2.88.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "basic-auth-connect": "~1.0.0",
     "body-parser": "^1.18.2",
     "bunyan": "^1.8.12",
@@ -83,7 +83,7 @@
     "express-sanitizer": "^1.0.4",
     "express-session": "~1.15.0",
     "express-webpack-assets": "^0.1.0",
-    "googleapis": "^36.0.0",
+    "googleapis": "^37.0.0",
     "graceful-fs": "^4.1.11",
     "growi-pluginkit": "^1.1.0",
     "helmet": "^3.13.0",
